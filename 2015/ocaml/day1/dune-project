@@ -1,0 +1,26 @@
+(lang dune 3.16)
+
+(name day1)
+
+(generate_opam_files true)
+
+(source
+ (github egriff89/advent-of-code))
+
+(authors "Eric Griffith")
+
+(maintainers "Eric Griffith")
+
+(license LICENSE)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name day1)
+ (synopsis "Advent of Code 2015 - Day 1")
+ (description "Solution for Advent of Code 2015 - Day 1")
+ (depends ocaml dune base)
+ (tags
+  ("advent of code" aoc)))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
